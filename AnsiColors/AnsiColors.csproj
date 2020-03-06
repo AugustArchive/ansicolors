@@ -2,6 +2,16 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <OutputType>Library</OutputType>
+    <Authors>Noel</Authors>
+    <Description>.NET Core library to add a bit more color into your logging!</Description>
+    <Copyright>Copyright (c) 2020 Noel</Copyright>
+    <PackageProjectUrl />
+    <RepositoryUrl>https://github.com/nowoel/ansicolors</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>ansicolors, ansi, dotnet, dotnetcore</PackageTags>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <SignAssembly>false</SignAssembly>
   </PropertyGroup>
 
   <ItemGroup>

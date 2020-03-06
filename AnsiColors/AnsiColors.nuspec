@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>AnsiColors</id>
+    <version>1.0.0</version>
+    <authors>auguwu</authors>
+    <owners>auguwu</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/nowoel/AnsiColors</projectUrl>
+    <description>Spice up your logging with some color!</description>
+    <releaseNotes>Released the library</releaseNotes>
+    <copyright>Copyright (c) 2020 Noel</copyright>
+    <tags>dotnet dotnetcore ansi ansicolors colors</tags>
+  </metadata>
+</package>

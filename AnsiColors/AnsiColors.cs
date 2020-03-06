@@ -56,6 +56,7 @@ namespace AnsiColors
 
     public class AnsiColors
     {
+        // TODO: Make this better
         public bool Supports()
         {
             var noColor = Environment.GetEnvironmentVariable("NO_COLOR");
@@ -68,6 +69,5 @@ namespace AnsiColors
 
         public string GetColor(AnsiColor color, string text) => $"\\x1b[{color}m{text}\\x1b[0m";
         public string GetStyle(AnsiStyle style, string text) => $"\\x1b[{style}m{text}\\x1b[0m";
-
     }
 }
